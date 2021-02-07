@@ -1,6 +1,6 @@
 # AWS ALB Ingress Controller
 
-**NOTE:** The current image version is `v1.1.4`. Please file any issues you find and note the version used.
+**NOTE:** The current image version is `v1.1.6`. Please file any issues you find and note the version used.
 
 The AWS ALB Ingress Controller satisfies Kubernetes [ingress resources](https://kubernetes.io/docs/user-guide/ingress) by provisioning [Application Load Balancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html).
 
@@ -17,6 +17,7 @@ Checkout our [Live Docs](https://kubernetes-sigs.github.io/aws-alb-ingress-contr
 To get started with the controller, see our [walkthrough](https://kubernetes-sigs.github.io/aws-alb-ingress-controller/guide/walkthrough/echoserver/).
 
 ## Setup
+
 - See [controller setup](https://kubernetes-sigs.github.io/aws-alb-ingress-controller/guide/controller/setup/) on how to install ALB ingress controller
 - See [external-dns setup](https://kubernetes-sigs.github.io/aws-alb-ingress-controller/guide/external-dns/setup/) for how to setup the external-dns to manage route 53 records.
 
